@@ -1,3 +1,2 @@
 /organizations:
-    get:
-        $ref: "organization/get_organization.yaml"
+    $ref: "./organizations/_index.yaml"

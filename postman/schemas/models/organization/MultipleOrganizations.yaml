@@ -1,6 +1,0 @@
-components:
-    schemas:
-        MultipleSimple:
-            type: array
-            items:
-                $ref: ./OrganizationSimple.yaml
