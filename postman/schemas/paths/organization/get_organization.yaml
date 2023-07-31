@@ -1,0 +1,15 @@
+summary: Read a Organization
+responses:
+  '200':
+    description: Details about the organization`
+    content:
+      application/json:
+        schema:
+          $ref: models/organization/MultipleOrganizations.yaml#/components/schemas/MultipleSimple
+
+components:
+    schemas:
+        MultipleSimple:
+            type: array
+            items:
+                $ref: ./OrganizationSimple.yaml

@@ -1,0 +1,3 @@
+/organizations:
+    get:
+        $ref: "organization/get_organization.yaml"
