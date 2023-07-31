@@ -1,5 +1,8 @@
-type: object
-required:
-    id: number
-    name: string
-    domain: string
+components:
+  schemas:
+    SimpleArray:
+      type: object
+      required:
+          id: number
+          name: string
+          domain: string
