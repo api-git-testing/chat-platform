@@ -18,6 +18,9 @@ files[] = {"path":"postman/schemas/components/_index.yaml","metaData":{}}
 files[] = {"path":"postman/schemas/components/schemas/_index.yaml","metaData":{}}
 files[] = {"path":"postman/schemas/components/schemas/Organization/Organization.yaml","metaData":{}}
 files[] = {"path":"postman/schemas/components/schemas/Organization/OrganizationArray.yaml","metaData":{}}
+files[] = {"path":"postman/schemas/paths/_index.yaml","metaData":{}}
+files[] = {"path":"postman/schemas/paths/organizations/_index.yaml","metaData":{}}
+files[] = {"path":"postman/schemas/paths/organizations/get_organizations.yaml","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
 type = openapi:3

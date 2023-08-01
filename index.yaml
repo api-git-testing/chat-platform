@@ -10,7 +10,7 @@ servers:
     - url: https://good.domain.com
 
 paths:
-    $ref: "./postman/schemas/paths/_index.yaml"
+    $ref: ".postman/schemas/paths/_index.yaml"
 
 components:
     $ref: "./postman/schemas/components/_index.yaml"
