@@ -15,6 +15,11 @@ rootDirectory = postman/collections
 [config.relations.apiDefinition]
 rootDirectory = postman/schemas
 files[] = {"path":"components/_index.yaml","metaData":{}}
+files[] = {"path":"components/headers/_index.yaml","metaData":{}}
+files[] = {"path":"components/headers/rateLimit.yaml","metaData":{}}
+files[] = {"path":"components/parameters/_index.yaml","metaData":{}}
+files[] = {"path":"components/parameters/appId.yaml","metaData":{}}
+files[] = {"path":"components/parameters/limit.yaml","metaData":{}}
 files[] = {"path":"components/schemas/_index.yaml","metaData":{}}
 files[] = {"path":"components/schemas/Organization/Organization.yaml","metaData":{}}
 files[] = {"path":"components/schemas/Organization/OrganizationArray.yaml","metaData":{}}
