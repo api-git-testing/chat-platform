@@ -1,2 +1,5 @@
 schemas:
     $ref: "./schemas/_index.yaml"
+
+securitySchemes:
+    $ref: "./securitySchemes/_index.yaml"

@@ -15,4 +15,5 @@ paths:
 components:
     $ref: "./components/_index.yaml"
 
-        
+security:
+    - ApiKeyAuth: []
