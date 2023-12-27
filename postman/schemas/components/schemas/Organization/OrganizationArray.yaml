@@ -1,3 +1,4 @@
 type: array
 items:
     $ref: "#/components/schemas/Organization"
+    # $ref: "components/securitySchemes/APIKeyAuth.yaml"
